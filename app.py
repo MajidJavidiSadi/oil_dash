@@ -46,8 +46,8 @@ well_type_options = [
 #     "https://raw.githubusercontent.com/plotly/datasets/master/dash-sample-apps/dash-oil-and-gas/data/points.pkl",
 #     DATA_PATH.joinpath("points.pkl"),
 # )
-points = pickle.load(open(DATA_PATH.joinpath("points.pkl"), "rb"))
-points = dict(islice(points.items(), 200))
+points = pickle.load(open(DATA_PATH.joinpath("example.pkl"), "rb"))
+# points = dict(islice(points.items(), 200))
 
 # new_keys = list(range(1, 201))
 # points = dict(zip(new_keys, points.values()))
