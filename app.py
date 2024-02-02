@@ -48,6 +48,7 @@ well_type_options = [
 # )
 points = pickle.load(open(DATA_PATH.joinpath("points.pkl"), "rb"))
 points = dict(islice(points.items(), 200))
+
 # new_keys = list(range(1, 201))
 # points = dict(zip(new_keys, points.values()))
 # print(points)
